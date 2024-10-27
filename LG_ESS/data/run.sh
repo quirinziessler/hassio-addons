@@ -11,5 +11,6 @@ echo "mqtt_user=$(bashio::config "mqtt_user")" >> $CONFIG
 echo "mqtt_password=$(bashio::config "mqtt_password")" >> $CONFIG
 echo "interval_seconds=$(bashio::config "interval_seconds")" >> $CONFIG
 echo "hass_autoconfig_sensors=$(bashio::config "hass_autoconfig_sensors")" >> $CONFIG
+echo "ess_host=$(bashio::config "ess_host")" >> $CONFIG
 
 /usr/local/bin/essmqtt --config_file /etc/essmqtt.conf

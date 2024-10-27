@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.0.8
+added host option to configure the host directly
+
 ## 0.0.7
 new pyess version 0.1.22
 

@@ -1,3 +1,6 @@
+# This is a fork from the original repo below. I added the host configuration to fit it for my needs.
+https://github.com/Buktahula/hassio-addons/
+
 # Home Assistant Add-on:  LG ESS Solar
 
 Python library for LG ESS Solar power converters with EnerVU app compatibility
@@ -63,7 +66,8 @@ interval_seconds: "set the interval."
 
 hass_autoconfig_sensors: "preconfigured all possible Converter sensors."
 
+ess_host: "Host of the ESS"
+
 ### Sensor example
 4. Here you can find a German example for the sensor.yaml to use the whole thing in the Home Assistant Energy Dashboard:
 https://github.com/Buktahula/hassio-addons/blob/main/LG_ESS/sensor.yaml
-

@@ -21,4 +21,6 @@ jobs:
         with:
           args: |
             --all \
-            --target LG_ESS
+            --target LG_ESS \
+            --docker-hub quirinziessler/lgess
+
